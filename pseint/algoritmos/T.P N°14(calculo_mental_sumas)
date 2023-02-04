@@ -1,0 +1,16 @@
+//Programa que indica si el cálculo mental de dos números es correcto: RPC
+Algoritmo cálculo_mental_sumas
+	Escribir "cálculo mental de dos números: le ganas a una máquina?";
+	Escribir "ingresar número A";
+	Leer A;
+	Escribir "ingresar número B";
+	Leer B;
+	Escribir "Piensa: La suma A + B= ?";
+	Leer Piensa;                                                            //Piensa es la variable (pensada) por el usuario
+	Suma<-A + B                                                             // Función Suma
+	Si piensa= suma Entonces
+		Escribir "Correcto!!!...Eres bueno/a en sumar";
+	SiNo
+		Escribir "Error!!!...Necesitas estudiar";
+	Fin Si
+FinAlgoritmo

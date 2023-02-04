@@ -1,0 +1,18 @@
+//Algoritmo para calcular desceuntos
+Algoritmo descuentos
+	Escribir "ingrese el costo total de lo comprado"            
+	Leer X
+	Descuento es número
+	Si X>100 Entonces
+		Descuento=X*0.10
+		Total=X-X *0.10
+		Escribir "El total de la compra es: ", Total, " ";
+		Escribir "El descuento es: ", Descuento, "%";
+	Fin Si
+	Si X<100 Entonces
+		Descuento=X*0.02
+		Total=X-X *0.02
+		Escribir "El total de la compra es: ", Total, " ";
+		Escribir "EL descuento es: ",Descuento, "%";
+	Fin Si
+FinAlgoritmo

@@ -1,0 +1,9 @@
+//Algoritmo para calcular el salario semanal de un trabajador.
+Algoritmo Salarioo
+	Escribir "Ingresar horas trabajadas por semana";
+	Leer HT;                                                             //ingresa por teclado las horas_trabajadas_semana
+	Escribir "Ingresar el salario $/hora";                               //ingresa por teclado el salario $/hora
+	Leer SH;
+	Salario = HT*SH;                                                     //operador
+	Escribir "el salario semanal ganado es: $", Salario;
+FinAlgoritmo

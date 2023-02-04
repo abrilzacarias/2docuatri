@@ -1,0 +1,30 @@
+Algoritmo mayor_menor_
+	Escribir "digite un número";
+	Leer a;
+	Escribir "digite un número";
+	Leer b;
+	Escribir "digite un número";
+	Leer c;
+	Si a>b y a>c Entonces
+		Escribir "el mayor es:",a;
+	SiNo
+		Si a<b y a<c Entonces
+			Escribir "el menor es: ",a;
+		Fin Si
+    FinSi
+	Si b>a y b>c Entonces
+		Escribir "el mayor es:",b
+	SiNo
+		Si b<a y b<c Entonces
+			EScribir "el menor es:",b
+		Fin Si
+		
+	FinSi
+	Si c>a y c>b Entonces
+		Escribir "el mayor es:",c
+	SiNo
+		Si c<a y c<b Entonces
+			Escribir "el menor es:",c
+		Fin Si
+	FinSi
+FinAlgoritmo

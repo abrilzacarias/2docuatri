@@ -1,0 +1,19 @@
+Algoritmo facturación_de_restaurante
+	Escribir "ingrese el costo total de lo consumido"            
+	Leer CTC;                                                    //Ingresar por teclado el Costo Total de lo Consumido
+	Propina es numero                                             
+	Si CTC<=300 Entonces                                         //Si el costo es mayor o igual a $300 entonces
+		Propina<-CTC*0.1                                         //La propina es igual al costo del consumo + el 10%
+		N<-CTC+Propina                                           //Calculo del costo de consumo + la propina
+	FinSi
+	Si CTC>300 y CTC<=600 Entonces                               //Si el costo es mayor a $300 y menor o igual a $600 entonces              
+		Propina<-CTC*0.07                                        //La propina es igual al costo del consumo + el 7%
+		N<-CTC+Propina                                           //Idem línea 7
+    FinSi
+
+    Si CTC>600 Entonces                                          //Si el costo es mayor a $600 entonces
+		Propina<-CTC*0.05                                       //La propina es igual al costo del consumo + el 5%
+		N<-CTC+Propina                                          //Idem línea 7
+	Fin Si
+	Escribir "El costo total a pagar es: ", N," La Propina es: ", Propina      
+FinAlgoritmo

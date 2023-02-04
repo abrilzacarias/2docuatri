@@ -1,0 +1,23 @@
+Algoritmo Salariosxsemana
+	Dimension Empleados[3]
+	Dimension HT[3]            //Horas trabajadas por empleado
+	Para i<-1 Hasta 3 Hacer   
+		Escribir "N° de empleado"   
+		Leer num                         //Se ingresa en un vector el numero de los empleados
+		Escribir "Ingresar horas trabajadas"   
+		Leer HT[i]                      //Se ingresa en un vector las horas que trabaja un empleado 
+		Si HT[i]=40 O HT[i]<40 Entonces
+			S=HT[i]*20
+	    SiNo 
+			Si HT[i]>40 Entonces 
+				HorasC=40                //Horas comunes
+				HorasE= HT[i]-40         //Horas extra es igual a horas trabajadas menos 40
+				SalarioE=HorasE*25       //Salario extra es igual a horas extras por 25
+				s=HorasC*20+SalarioE     //salario es igual a las horas comunes por 20 mas el salario extra
+			Fin Si	
+		Fin Si
+		Escribir "El salario total es de: ",s;
+		Escribir "El aumento por horas extras es de: ", SalarioE;
+	Fin Para
+
+FinAlgoritmo

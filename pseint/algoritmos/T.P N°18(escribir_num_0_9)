@@ -1,0 +1,12 @@
+//Algoritmo que pide ingresar un nº del 0-9 empleando Según-Hacer
+Algoritmo escribir_num_0_9
+	Escribir "Ingresar un Número; N = ?";
+	Leer N;
+	Segun N Hacer
+			0,1,2,3:Escribir "Está bien";
+		    6,5,4:Escribir "Está bien";
+			9,8,7:Escribir "Está bien";
+		De Otro Modo:
+			Escribir "Error:debes escibir del 0 al 9";
+	Fin Segun
+FinAlgoritmo

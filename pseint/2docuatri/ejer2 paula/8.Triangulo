@@ -1,0 +1,24 @@
+Algoritmo Triangulo
+	
+	Definir  a, b, c como Real
+	Escribir "Valores"
+	Leer a,b,c
+	
+	Si a<(b+c) o b<(a+c) o c<(a+b) Entonces
+		Escribir "Es un triángulo."
+	SiNo
+		Escribir "No es un triángulo."
+	FinSi
+	
+	Si a=b y a=c Entonces
+		Escribir "Es un triángulo equilatero."
+	SiNo
+		Si a<>b y b<>c y a<>c Entonces
+			Escribir "Es un triángulo escaleno."
+		SiNo
+			Escribir "Es un triángulo isósceles."
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo

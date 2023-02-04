@@ -1,0 +1,12 @@
+//Algoritmo para calcular la suma repetitiva de N
+Algoritmo suma_repetitiva_de_N
+	Escribir "Ingresa un numero natural";
+	Leer n;
+	Cont<-1
+	Suma<-0
+	Mientras cont<= n Hacer
+		Suma<- Suma+Cont
+		Cont<-Cont+1
+	Fin Mientras
+	Escribir Suma
+FinAlgoritmo

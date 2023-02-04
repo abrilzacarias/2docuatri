@@ -1,0 +1,25 @@
+//ALgoritmo para calcular las n notas de un estudiante
+Algoritmo para_calcular_las_n_notas
+	Escribir "ingrese la cantidad de materias"
+	Leer n;
+	nota es numero
+	acum<-0
+	Para i<-1 Hasta N Hacer
+		Escribir "ingrese la calificación", i,":";
+		Leer nota;
+		Si nota>=60 Entonces
+			Escribir "La materia esta aprobada"
+			contAP<-contAP+1
+			notAP<-notAP+nota
+		SiNo
+			Escribir "La materia esta reprobada"
+			contDES<-contDES+1
+			notDES<-notDES+nota
+		Fin Si
+		acum<-acum+nota;
+	Fin Para
+	prom<-acum/N
+	Escribir "El promedio es: ",prom;
+	Escribir "El promedio de notas aprobadas es: ", notAP/contAP
+	Escribir "El promedio de notas desaprobadas es: ", notDES/contDES
+FinAlgoritmo

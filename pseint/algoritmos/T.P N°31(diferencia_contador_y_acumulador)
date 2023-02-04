@@ -1,0 +1,16 @@
+Algoritmo diferencia_contador_acumulador
+	acumulador<-10
+	contador<-0
+	Definir inicio Como Caracter
+	Escribir "¿Desea dar inicio al proceso para diferenciar contadores de aumuladores?, Presione Y para empezar";
+	Leer inicio;
+	Si inicio= "Y"  Entonces
+		Para i<-1 Hasta 10 Hacer
+			contador<-contador+1
+        	acumulador<- acumulador+(acumulador*i)
+			Escribir"Contador en la posicion ", i, "vale: ", contador;
+			Escribir "acumulador en la posicion ", i , "vale: ", acumulador;
+		Fin Para
+	Fin Si
+FinAlgoritmo
+ 
